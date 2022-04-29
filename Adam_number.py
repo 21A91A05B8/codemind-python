@@ -1,0 +1,17 @@
+n=int(input())
+rev1=0
+rev2=0
+sq1=n*n
+while(n):
+    d=n%10
+    rev1=rev1*10+d
+    n=n//10
+sq2=rev1*rev1
+while(sq2):
+    d=sq2%10
+    rev2=rev2*10+d
+    sq2=sq2//10
+if(sq1==rev2):
+    print('True')
+else:
+    print('False')
