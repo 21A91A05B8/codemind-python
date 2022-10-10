@@ -1,24 +1,21 @@
 s=input()
-
-vowels='aeiouAEIOU'
-Digits='0123456789'
-Consonants='bcdfghjklmnpqrstwvxyzBCDFGHJKLMNPQRSTVWXYZ'
-v=0
-c=0
-d=0
-w=0
+v='aeiouAEIOU'
+c='qwrtyplkjhgfdszxcvbnmPYTRWQSDFGHJKLZXCVBNM'
+n='1234567890'
+V=0
+C=0
+N=0
+a=0
 for i in s:
-    if i in vowels:
-        v+=1
-    elif i in Consonants:
-        c+=1
-    elif i in Digits:
-        d+=1
-    elif i==' ':
-        w+=1
-print("Vowels:",v)
-print("Consonants:",c)
-print("Digits:",d)
-print("White spaces:",w)
-
-        
+    if i in v:
+        V+=1
+    elif i in c:
+        C+=1
+    elif i in n:
+        N+=1
+    elif(i==' '):
+        a+=1
+print("Vowels:",V)
+print("Consonants:",C)
+print("Digits:",N)
+print("White spaces:",a)
