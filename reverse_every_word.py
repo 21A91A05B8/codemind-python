@@ -1,4 +1,3 @@
-s=input()
-s=s.split()
+s=input().split()
 for i in s:
-    print(i[::-1],end=" ")
+    print(i[::-1],end=' ')
