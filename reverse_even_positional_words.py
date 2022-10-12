@@ -1,7 +1,6 @@
-s=input()
-l=s.split(" ")
-for i in range(len(l)):
-    if i%2==0:
-        print(l[i][::-1],end=" ")
+s=input().split()
+for i in range(0,len(s)):
+    if(i%2==0):
+        print(s[i][::-1],end=' ')
     else:
-        print(l[i],end=" ")
+        print(s[i],end=' ')
