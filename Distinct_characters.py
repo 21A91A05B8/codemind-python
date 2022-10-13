@@ -7,4 +7,3 @@ for i in s:
         d.sort()
 for i in d:
     print(i,end='')
-    
