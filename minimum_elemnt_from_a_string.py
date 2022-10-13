@@ -5,4 +5,3 @@ if k and k.lower() in s:
     print(k.lower())
 else:
     print(k)
-    
